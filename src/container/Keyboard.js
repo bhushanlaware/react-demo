@@ -41,7 +41,7 @@ const KeyBoard = () => {
             <Grid container direction="row" spacing={1}>
               {numberPad.map((x) => (
                 <Grid item xs={4}>
-                  <NumberButton onClick={handleClick.bind(x)}  {...x}  />
+                  <NumberButton onClick={handleClick.bind(x)} {...x} />
                 </Grid>
               ))}
             </Grid>
