@@ -15,13 +15,12 @@ const NumberButton = ({ number = 0, alphabets = [], onClick, ...rest }) => {
       variant="outlined"
       color="primary"
       fullWidth
-      
       onClick={onClick}
       {...rest}
-      style={{height:'70px',display:'block'}}
+      style={{ height: "70px", display: "block" }}
     >
       {number}
-      <br/>
+      <br />
       <Typography variant="caption">
         {!rest.hideAphabets && buttonAphabets}
       </Typography>
