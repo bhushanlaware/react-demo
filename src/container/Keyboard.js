@@ -1,7 +1,7 @@
 import { Box, Card, Grid } from "@material-ui/core";
 import React, { useState } from "react";
-import NumberButton from "../components/NumberButton";
-import Screen from "../components/Screen";
+import NumberButton from "../Components/MyNumberButton";
+import Screen from "../Components/MyScreen";
 import { changeLastEleOfArray, executor } from "../utils/common";
 import numberPad from "../utils/numberPad";
 
